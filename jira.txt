@@ -1,0 +1,61 @@
+as a student 
+
+i want student login modularity
+
+so that i  can successfully login to the school management system
+
+desired outcome:
+
+all the students successfully access SMS
+
+scope
+
+the student validation
+
+the student should be able to change the password
+
+it should be work in all the device(laptop,pc,mobile,tablet)
+
+pre-requisites or pre-condition
+
+the student should have reqistered in school management system
+
+acceptance criteria
+
+scenario1: user successfully login
+
+given i am in login page
+
+and when user does some action and i give valid username and password 
+
+and click on the sign in 
+
+then i will successfully login   
+
+scenario2:unsuccessfull login
+
+given i am in login page
+
+and i give invalid username and password
+
+and i click on the login
+
+then i cannot successfully login.i will get error message “invalid username and password”
+
+scenario3:student can reset the password
+
+given i am in login page 
+
+and i click on the forget password
+
+and i will recieve a reset password link to email ID.
+
+and  i follow the link and provide a new password
+
+and i click on the reset button
+
+and new password will be set
+
+and i provide username and new password and click on sign in 
+
+then i successfully login
